@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<ImageView
+    android:id="@+id/movie_poster"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:adjustViewBounds="true"
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"/>
+
+<TextView
+    style="@style/labelTextViewStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/release_date" />
+
+<TextView
+    android:id="@+id/movie_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/textViewStyle" />
+
+<TextView
+    style="@style/labelTextViewStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/rating" />
+
+<TextView
+    android:id="@+id/movie_rating"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/textViewStyle" />
+
+<TextView
+    style="@style/labelTextViewStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/overview" />
+
+<TextView
+    android:id="@+id/movie_overview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/textViewStyle" />
+
+
+</LinearLayout>
+    </ScrollView>
